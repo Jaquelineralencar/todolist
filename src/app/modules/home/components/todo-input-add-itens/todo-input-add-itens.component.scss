@@ -1,0 +1,22 @@
+*{
+    display: flex;
+    justify-content: center;
+    margin: -1.3rem 0 0 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    width: 80%;
+
+    color: #000000;
+    border: none;
+    background-color:  #a887a2;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+
+    &::placeholder{
+        color: #000000;
+    }
+}
